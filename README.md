@@ -1,4 +1,4 @@
-#❤️ Heart Disease Prediction – Exploratory Data Analysis & Preprocessing
+# ❤️ Heart Disease Prediction – Exploratory Data Analysis & Preprocessing
 
 A data analysis and preprocessing project that explores a heart disease dataset to understand the factors influencing heart disease and prepares the data for machine learning models.
 
@@ -14,7 +14,7 @@ Statistical Analysis
 
 Preparing the dataset for Machine Learning
 
-📌 Project Overview
+# 📌 Project Overview
 
 Heart disease is one of the leading causes of death worldwide. Understanding the key medical indicators can help predict and prevent heart-related conditions.
 
@@ -32,7 +32,7 @@ Statistical analysis
 
 Feature preparation for ML models
 
-📂 Dataset
+# 📂 Dataset
 
 The dataset used in this project contains medical attributes related to heart health.
 
@@ -52,7 +52,7 @@ ST_Slope	Slope of peak exercise ST segment
 HeartDisease	Target variable (1 = Disease, 0 = No Disease)
 🔍 Exploratory Data Analysis (EDA)
 
-EDA is performed to understand the structure, distribution, and patterns in the dataset.
+# EDA is performed to understand the structure, distribution, and patterns in the dataset.
 
 Key Steps
 
@@ -73,7 +73,7 @@ Example analysis:
 df.shape
 df.info()
 df.describe()
-🧹 Data Cleaning
+# 🧹 Data Cleaning
 
 Data preprocessing is essential to ensure data quality before model training.
 
@@ -91,7 +91,7 @@ These values were replaced using the mean cholesterol value:
 
 ch_mean = df.loc[df['Cholesterol'] != 0, 'Cholesterol'].mean()
 df['Cholesterol'] = df['Cholesterol'].replace(0, ch_mean)
-📊 Data Visualization
+# 📊 Data Visualization
 
 Visualizations help understand patterns and relationships in the dataset.
 
@@ -109,7 +109,7 @@ df['HeartDisease'].value_counts().plot(kind="bar")
 
 This helps observe the balance between patients with and without heart disease.
 
-🧠 Feature Analysis
+# 🧠 Feature Analysis
 
 Different features are analyzed to understand how they relate to heart disease.
 
@@ -127,7 +127,7 @@ Heart rate patterns
 
 Feature relationships help determine which variables may influence heart disease risk.
 
-⚙️ Feature Preparation
+# ⚙️ Feature Preparation
 
 The dataset is prepared for machine learning by:
 
@@ -139,14 +139,8 @@ Creating meaningful feature representations
 
 Preparing structured data for modeling
 
-📁 Project Structure
-Heart_Disease/
-│
-├── heart_disease.ipynb        # Main notebook
-├── heart.csv                  # Dataset
-├── README.md                  # Project documentation
-└── .ipynb_checkpoints         # Jupyter auto checkpoints
-🚀 How to Run the Project
+
+# 🚀 How to Run the Project
 1️⃣ Clone the repository
 git clone https://github.com/NAB-Desgin/Heart_Disease.git
 2️⃣ Navigate to the project folder
@@ -191,7 +185,7 @@ Model evaluation metrics
 
 Building a heart disease prediction system
 
-📊 Potential Machine Learning Models
+# 📊 Potential Machine Learning Models
 
 This dataset can be used to train models such as:
 
@@ -205,7 +199,7 @@ Support Vector Machine
 
 Gradient Boosting
 
-🎯 Project Goals
+# 🎯 Project Goals
 
 The goal of this project is to:
 
@@ -217,7 +211,7 @@ Prepare data for machine learning
 
 Build a foundation for predictive healthcare models
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 NAB Design
 
